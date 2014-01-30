@@ -13,7 +13,7 @@ I was bored, and was joking around with some friends about Spacefuck after atten
 
 Commands
 --------
-(*NOTE* EACH COMMAND MUST BE TERMINATED WITH an "uck", kind of like how ';' in C-style languages end statements. For example the . command in Brainfuck is equivilent to fffff, terminated with uck, so . => fffff uck)
+( *NOTE EACH COMMAND MUST BE TERMINATED* WITH an "uck", kind of like how ';' in C-style languages end statements. For example the . command in Brainfuck is equivilent to fffff, terminated with uck, so . => fffff uck. Please look at the [examples](examples/) )
 
 <table>
 	<tr>
