@@ -1,7 +1,7 @@
 Fuckfuck
 =========
 
-![logo](https://raw.github.com/jsimnz/fuckfuck/master/img/rage-meme.jpg)
+![logo](https://raw.github.com/jsimnz/fuckfuck/master/doc/rage-meme.jpg)
 
 Fuckfuck is a [Turing complete](http://en.wikipedia.org/wiki/Turing_completeness) [esoteric programming language](http://en.wikipedia.org/wiki/Esoteric_programming_language) based on Spacefuck which is based on Brainfuck.
 The commands are those of Brainfuck, but instead of using single characters, Fuckfuck uses a series of "f"s terminated with an "uck" for each command. 
@@ -11,7 +11,7 @@ The number of "f"s pre statement represents the action that the Fuckfuck interpr
 Why?
 ----
 
-I was bored, and was joking around with some friends about Spacefuck after attending Zach Holmanns talk at CUSES2014 in which he mentioned the flak he recieved for the use of profanity in a previous talk with a slide titled: "Documentation is fucking important". Long story short, I made a language full of profanity. FUCK YEAH!
+I was bored, and was joking around with some friends about Spacefuck after attending Zach Holmans talk at CUSES2014 in which he mentioned the flak he recieved for the use of profanity in a previous talk with a slide titled: "Documentation is fucking important". Long story short, I made a language full of profanity. FUCK YEAH!
 
 Commands
 --------
