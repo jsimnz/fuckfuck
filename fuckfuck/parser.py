@@ -9,10 +9,10 @@ class FFParser(object):
         with open(path, 'r') as f:
            content = f.read()
            cmd = []
-           lines = content.split("uck\n")
+           lines = content.split("\n")
            for line in lines:
-                if "uck" in line:
-                    cmds = line.split("uck")
+                if " " in line:
+                    cmds = line.split(" ")
                     cmd += cmds
                 else:
                     cmd.append(line)
@@ -25,9 +25,10 @@ class FFParser(object):
     def get_tokens(self):
         for line in self._lines:
             line = line.strip()
-            if "f"*len(line) == line.strip():
-                if len(line) in Commands:
-                    self._tokens.append(len(line.strip()))
+            if line in Commands:
+                self._tokens.append(line)
+            elif line == "": # ignore empty line
+                pass
             else:
                 raise SyntaxError(line)
 
@@ -37,4 +38,4 @@ class SyntaxError(Exception):
     def __init__(self, value):
         self.value = value
     def __str__(self):
-        return "Invalid syntax: " + str(self.value)
+        return "Invalid syntax: '" + str(self.value) + "'"

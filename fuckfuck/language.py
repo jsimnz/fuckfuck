@@ -1,12 +1,12 @@
 class BaseCommands(object):
-    INCREMENT_POINTER = 1
-    DECREMENT_POINTER = 2
-    INCREMENT_VALUE   = 3
-    DECREMENT_VALUE   = 4
-    OUTPUT_VALUE      = 5
-    INPUT_VALUE       = 6
-    LOOP_BEGIN        = 7
-    LOOP_END          = 8
+    INCREMENT_POINTER = "fuck"
+    DECREMENT_POINTER = "fuckers"
+    INCREMENT_VALUE   = "fuckity"
+    DECREMENT_VALUE   = "fucking"
+    OUTPUT_VALUE      = "fucked"
+    INPUT_VALUE       = "fuckable"
+    LOOP_BEGIN        = "fuckster"
+    LOOP_END          = "fuckups"
 
     __commands = [
         INCREMENT_POINTER,
