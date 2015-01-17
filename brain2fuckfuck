@@ -3,14 +3,14 @@ import sys
 
 lookupTable = {
 	#Brainfuck chars
-	">":"f uck ",
-	"<":"ff uck ",
-	"+":"fff uck ",
-	"-":"ffff uck ",
-	".":"fffff uck ",
-	",":"ffffff uck ",
-	"[":"fffffff uck ",
-	"]":"ffffffff uck ",
+	">":"fuck ",
+	"<":"fuckers ",
+	"+":"fuckity ",
+	"-":"fucking ",
+	".":"fucked ",
+	",":"fuckable ",
+	"[":"fuckster ",
+	"]":"fuckups ",
 
 	#Special chars
 	"\n":"\n",
